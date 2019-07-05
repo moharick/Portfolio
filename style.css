@@ -49,3 +49,8 @@ html {
         background-color: #696969;
         height: 550px;
     }
+    h1{
+        font-family: 'Acme',cursive;
+    font-style: italic;
+    font-size: 40px;
+    }
