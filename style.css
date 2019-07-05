@@ -52,5 +52,10 @@ html {
     h1{
         font-family: 'Acme',cursive;
     font-style: italic;
-    font-size: 40px;
+    font-size: 20px;
+    }
+    h1 ul li{
+        font-family: 'Acme',cursive;
+        font-style: italic;
+        font-size: 10px;
     }
