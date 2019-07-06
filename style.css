@@ -59,4 +59,9 @@ html {
         font-style: italic;
         font-size: 10px;
     }
-  
+    #personal-profile{
+        float: center;
+    }
+    #info{
+        display: flex;
+    }
