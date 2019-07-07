@@ -128,3 +128,43 @@ h2{
 h3{
     font-style: italic;
 }
+#contact h4{
+    /* margin-top: 20px; */
+}
+h4{
+    font-family: "Acme";
+    font-size: 50px;
+}
+#portfolio{
+    background-image: url(https://images.pexels.com/photos/951240/pexels-photo-951240.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-color: #696969;
+    height: 550px;
+}
+#contact{
+        background-image: url(https://images.pexels.com/photos/951240/pexels-photo-951240.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        background-color: #696969;
+        height: 550px;
+    }
+    .contacts{
+        display: flex;
+        justify-content: space-between;
+    }
+    #moha1, #moha2, #moha3, #moha4, #moha5{
+        margin: 20px;
+    }
+    #moha1{
+        color: blue;
+    }
+    #moha2{
+        color: orangered
+    }
+    #moha3{
+        color: blue;
+    }
+    #moha5{
+        color: blue;
+    }
+    footer{
+        font-family: "Acme";
+        font-size: 25px;
+    }
