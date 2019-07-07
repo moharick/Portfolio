@@ -8,26 +8,21 @@ html {
 #home{
     background-image: url(https://wallpapercave.com/wp/wp1828935.jpg);
     height: 570px;
-    width: auto;
-    background-size: cover;
+    top: 0;
     }
-    #overlay{
-        position: sticky;
-        top: 0;
-    }
-    nav{width: 100%;
+nav{width: 100%;
         height: 60px;
     background-color:#696969;
     }
-    nav ul {
+nav ul {
         float: right;
     }
-    nav ul li {
+nav ul li {
         float: left;
         list-style: none;
         position: relative;
     }
-    nav ul li a{
+nav ul li a{
     font-family: 'Acme', Helvetica, sans-serif;
     color: white;
     font-size: 24px;
@@ -35,58 +30,61 @@ html {
     display: block;
     text-decoration: none;
     }
-    #p.pic{
+#p.pic{
         margin: 30px;
         padding: 10px;
     }
-    #about-me{
+#about-me{
         height: 20px;
         background-image: url(https://images.pexels.com/photos/951240/pexels-photo-951240.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 
     }
-    #cv{
+#cv{
         background-image: url(https://images.pexels.com/photos/951240/pexels-photo-951240.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
         background-color: #696969;
         height: 550px;
     }
-    h1{
+h1{
         font-family: 'Acme',cursive;
     font-style: italic;
     font-size: 20px;
     }
-    h1 ul li{
+h1 ul li{
         font-family: 'Acme',cursive;
         font-style: italic;
         font-size: 10px;
     }
-    #personal-profile{
+#personal-profile{
         float: center;
     }
-    #cv{
+#cv{
         display: flex;
     }
-    .left{
+.left{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         margin-left: 20px;
     }
-    .right{
+.right{
         display: flex;
         flex-direction: column;
         margin-top: 100px;
 
     }
-    #profile{
+hr{
+        margin: 0 10px 0 0;
+    }
+#profile{
         display: flex;
     }
-    #personal, #career{
+#personal, #career{
         margin: 20px;
     }
-    #bottom-skills{
+#bottom-skills{
         display: flex;
     }
 
-    #strengths ,#skills, #work{
+#strengths ,#skills, #work{
         margin: 30px;
     }
