@@ -86,5 +86,28 @@ hr{
     }
 
 #strengths ,#skills, #work{
-        margin: 30px;
+        margin: 25px;
     }
+#icon1, #icon2, #icon3, #icon4{
+    margin:0px;
+    width: 45px;
+}
+#icon1{
+   color: red; 
+}
+#icon2{
+    color: blueviolet;
+}
+#icon3{
+color: deeppink;
+}
+#icon4{
+    color: cyan;
+}
+.projects{
+    display: flex;
+    margin-left: 100px;
+}
+#ps, #sc{
+    margin: 20px;
+}
